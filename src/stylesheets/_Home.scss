@@ -1,0 +1,103 @@
+#home-page {
+    color: white;
+    display: flex;
+    height: 80vh;
+
+    .social-links {
+        width: 10%;
+        padding: 194px 103px 194px 37px;
+        color: #9ea3a0;
+
+        .round-btn {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid #9ea3a0;
+            margin-bottom: 20px;
+            position: relative;
+            .icon {
+                position: absolute;
+                top: 12px;
+                left: 12px;
+            }
+        }
+    }
+
+    .info-section {
+        width: 40%;
+        padding-top: 112px;
+
+        .round-bar {
+            padding: 15px 30px;
+            display: inline-block;
+            border-radius: 30px;
+
+            &.black-btn {
+                background: #141414;
+                color: #FBBF3F;
+                text-transform: uppercase;
+                font-size: .9rem;
+            }
+
+            &.yellow-btn {
+                background: #FBBF3F;
+                color: #060606;
+                text-transform: uppercase;
+                font-size: 1rem;
+            }
+
+            &.blue-btn {
+                background: #3F7BFB;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-size: 1rem;
+                margin-left: 15px;
+            }
+        }
+
+        .buttons {
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        p{
+            line-height: 1.5;
+        }
+    }
+
+    .image-bg {
+        width: 50%;
+        background-image: url("https://cdn.vox-cdn.com/thumbor/F3EXGcvCo9QPs5oS9OvbxLV9-7c=/0x0:4761x2970/1200x800/filters:focal(1639x1407:2399x2167)/cdn.vox-cdn.com/uploads/chorus_image/image/65375048/3.0.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .latest-project {
+            max-width: 250px;
+            background: #070707;
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 35px;
+
+            .highlight {
+                font-size: .9rem;
+                color: #FBBF3F;
+                margin-bottom: 28px;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            p {
+                color: #9ea3a0;
+            }
+        }
+    }
+}

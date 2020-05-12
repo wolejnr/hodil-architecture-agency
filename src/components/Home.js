@@ -13,14 +13,30 @@ export default class Home extends Component {
         <div className="container">
             <div id="home-page">
                 <div className="social-links">
-                    <div className="round-btn">Instagram</div>
-                    <div className="round-btn">Vimeo</div>
-                    <div className="round-btn">Twitter</div>
-                    <div className="round-btn">facebook</div>
+                    <div className="round-btn">
+                      <div className="icon">
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div className="round-btn">
+                      <div className="icon">
+                        <i className="fa fa-vimeo" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div className="round-btn">
+                      <div className="icon">
+                        <i className="fa fa-twitter" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div className="round-btn">
+                      <div className="icon">
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
+                      </div>
+                    </div>
                 </div>
                 <div className="info-section">
                     <div className="round-bar black-btn">Established since 2012</div>
-                    <h1>We do big things with big ideas.</h1>
+                    <h1>We do big things<br/> with big ideas.</h1>
                     <p>
                         You can choose one of our demos. Easy to import and <br/>
                         highly customizable. You will find what you need in one <br/>
@@ -31,10 +47,10 @@ export default class Home extends Component {
                         <div className="round-bar blue-btn">Services</div>
                     </div>
                 </div>
-                <div className="latest-project">
-                    <div>
-                        <h6>Latest Project</h6>
-                        <h4>Oxford Science Lab building</h4>
+                <div className="image-bg">
+                    <div className="latest-project">
+                        <div className="highlight">Latest Project</div>
+                        <div className="title">Oxford Science Lab building</div>
                         <p>Ottawa, ON</p>
                     </div>
                 </div>
