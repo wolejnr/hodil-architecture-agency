@@ -47,12 +47,15 @@ export default class Home extends Component {
                       <div className="round-bar blue-btn">Services</div>
                   </div>
               </div>
-              <div className="col-md-6 image-bg">
-                  <div className="latest-project">
-                      <div className="highlight">Latest Project</div>
-                      <div className="title">Oxford Science Lab building</div>
-                      <p>Ottawa, ON</p>
+              <div className="col-md-6">
+                <div className="featured-project">
+                  <img src="https://cdn.vox-cdn.com/thumbor/F3EXGcvCo9QPs5oS9OvbxLV9-7c=/0x0:4761x2970/1200x800/filters:focal(1639x1407:2399x2167)/cdn.vox-cdn.com/uploads/chorus_image/image/65375048/3.0.jpg" className="img-fluid image-bg" alt="New sky scraper completed in January 2020" />
+                  <div className="latest-project bg-dark">
+                    <div className="highlight">Latest Project</div>
+                    <div className="title text-light">Oxford Science Lab building</div>
+                    <p>Ottawa, ON</p>
                   </div>
+                </div>
               </div>
           </div>
       </div>
