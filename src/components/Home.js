@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {
+  Link
+} from 'react-router-dom';
 
 export default class Home extends Component {
   constructor(){
@@ -43,8 +46,8 @@ export default class Home extends Component {
                       of our fully equipped demos.
                   </p>
                   <div className="buttons">
-                      <div className="round-bar yellow-btn">About Us</div>
-                      <div className="round-bar blue-btn">Services</div>
+                      <Link className="round-bar yellow-btn" to="/about">About Us</Link>
+                      <Link className="round-bar blue-btn" to="/services">Services</Link>
                   </div>
               </div>
               <div className="col-md-6">
