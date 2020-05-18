@@ -4,7 +4,7 @@ var portfolioData = [
         slug: "3-bedroom-duplex",
         city: "Ottawa",
         province: "ON",
-        description: "Located in the serene country side this apartment is a good holiday destination.",
+        description: "3 bed - 4 bath townhouse located in the neighborhood of Carson Grove, walking distance to Gloucester Mall, recreation and entertainment centres, Cité Collégiale, CSIS and O'Train! Bright and spacious, this home offers a 2 storey entrance with inside entry from garage. Main floor features hardwood floors, open concept living/dining room with a cozy gas fireplace and tons of natural light. Eat-in kitchen with stainless steal appliances, white cabinetry and access to impressive backyard through patio door. It has stone interlock, composite deck and PVC fence; perfect for summer BBQs and zero maintenance. Upper floor features spacious master bedroom with walk-in closet and 4PC ensuite. 2 more sizable bedrooms and full bath. Fully finished basement with built in cabinets with revolving TV stand offering gym space on one side and TV comfort on the other, full bath/laundry and ample storage.",
         featuredImage: "https://images.craigslist.org/00x0x_j2eAIInU350_600x450.jpg",
         photoGrid: [
             'https://images.craigslist.org/00w0w_5pejAKTIXOs_600x450.jpg',
@@ -20,7 +20,7 @@ var portfolioData = [
         slug: "ocean-view-penthouse",
         city: "White Rock",
         province: "BC",
-        description: "Located beside the river side in the quiet town of White Rock.",
+        description: "Sub Penthouse, Concrete, Ocean View, Luxury Condo in the final phase of Miramar Village in downtown White Rock, B.C. OVER 1350 SQFT, 2 bed, 2 bath, imported Italian kitchen with Bosch appliances, ultimate finish & features, 2 parking stalls. Enjoy the entertainment of a rooftop terrace, or unwind in the outdoor hot tub or relax in the private Residents' Lounge, complete with fireplace, kitchen & large screen TV.",
         featuredImage: "https://images.craigslist.org/00k0k_kPDJeVcgRoa_600x450.jpg",
         photoGrid: [
             'https://images.craigslist.org/00Y0Y_1n4UiOVHvqn_600x450.jpg',
@@ -52,7 +52,7 @@ var portfolioData = [
         slug: "titanium-private-residences",
         city: "Quarry Glen",
         province: "ON",
-        description: "Gorgeous open concept upper level 3 bedroom, 2.5 bath terrace style condo with underground parking and a spectacular view of the quarry ridge.",
+        description: "Gorgeous open concept upper level 3 bedroom, 2.5 bath terrace style condo with underground parking and a spectacular view of the quarry ridge. Move in ready! Large kitchen with stainless steel appliances, along with plenty of counter space for food prep and entertaining. The master bedroom has patio doors to your own private balcony overlooking walking path and greenery, 4 piece ensuite bath and walk-in closet. Convenient stacked laundry on the 2nd floor close to bedrooms and 4 piece main bath. Located close to shopping, parks, and walking distance to trails and Future LRT station.",
         featuredImage: "https://images.craigslist.org/00b0b_bcZeIbnR2io_600x450.jpg",
         photoGrid: [
             'https://images.craigslist.org/00w0w_1H6tt3c4SW6_600x450.jpg',

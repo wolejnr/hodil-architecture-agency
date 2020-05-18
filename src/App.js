@@ -43,12 +43,12 @@ export default class App extends Component {
                 <Porfolio data={this.state.portfolioData} />
               </Route>
               <Route path="/portfolio/details/:slug">
-                <PortfolioDetails />
+                <PortfolioDetails data={this.state.portfolioData} />
               </Route>
               <Route path="/services">
                 <Services />
               </Route>
-              <Route path="/">
+              <Route exact path="/">
                 <Home />
               </Route>
             </Switch>

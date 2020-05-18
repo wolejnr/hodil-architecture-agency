@@ -11,7 +11,7 @@ export default class Portfolio extends Component {
       return (
         <Link to={`/portfolio/details/${project.slug}`} className="col mb-4 portfolio-links" key={i}>
           <div className="card">
-            <img src={`${project.featuredImage}`} className="card-img-top" alt={`${project.title}`} width="600" height="400" />
+            <img src={`${project.featuredImage}`} className="card-img-top img-responsive" alt={`${project.title}`}  />
             <div className="card-body">
               <h5 className="card-title">{project.title}</h5>
               <p className="card-text">{project.city}, {project.province}</p>
