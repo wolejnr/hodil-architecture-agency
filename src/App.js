@@ -13,12 +13,14 @@ import Porfolio from './components/Portfolio';
 import Services from './components/Services';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import PortfolioDetails from './components/PortfolioDetails';
+import portfolioData from './components/data/portfolioData';
 
 export default class App extends Component {
   constructor(){
     super();
     this.state = {
-      name: "Hodil"
+      portfolioData
     };
   }
 
@@ -37,8 +39,11 @@ export default class App extends Component {
               <Route path="/contact">
                 <Contact />
               </Route>
-              <Route path="/portfolio">
-                <Porfolio />
+              <Route exact path="/portfolio">
+                <Porfolio data={this.state.portfolioData} />
+              </Route>
+              <Route path="/portfolio/details/:slug">
+                <PortfolioDetails />
               </Route>
               <Route path="/services">
                 <Services />
