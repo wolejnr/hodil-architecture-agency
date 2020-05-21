@@ -66,6 +66,10 @@
 .featured-project{
     padding-top: 100px;
 
+    .slide-text {
+        background: rgba($color: #000000, $alpha: 0.5);
+    }
+
     .image-bg {
         background-position: center center;
         background-size: cover;
@@ -79,7 +83,7 @@
         padding: 25px;
 
         .highlight {
-            font-size: .9rem;
+            font-size: 1.2rem;
             color: #FBBF3F;
             margin-bottom: 20px;
         }
