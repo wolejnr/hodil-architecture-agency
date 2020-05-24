@@ -12,15 +12,19 @@ import About from './components/About';
 import Porfolio from './components/Portfolio';
 import Services from './components/Services';
 import Blog from './components/Blog';
+import BlogArchive from './components/BlogArchive';
 import Contact from './components/Contact';
 import PortfolioDetails from './components/PortfolioDetails';
 import portfolioData from './components/data/portfolioData';
+import FeaturedArticles from './components/FeaturedArticles';
+import blogData from './components/data/blogData';
 
 export default class App extends Component {
   constructor(){
     super();
     this.state = {
-      portfolioData
+      portfolioData,
+      blogData
     };
   }
 
@@ -33,7 +37,13 @@ export default class App extends Component {
               <Route path="/about">
                 <About />
               </Route>
-              <Route path="/blog">
+              <Route exact path="/archive">
+                <BlogArchive />
+              </Route>
+              <Route exact path="/blog">
+                <FeaturedArticles data={this.state.blogData} />
+              </Route>
+              <Route path="/blog/:slug">
                 <Blog />
               </Route>
               <Route path="/contact">
