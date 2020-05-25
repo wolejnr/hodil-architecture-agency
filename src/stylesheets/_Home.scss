@@ -4,14 +4,22 @@
     color: #9ea3a0;
 
     .round-btn {
+        display: block;
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        border: 2px solid #9ea3a0;
+        border: 2px solid #070707;
         margin-bottom: 20px;
         position: relative;
+        cursor: pointer;
+        &:hover {
+            background: #fbbf3f;
+            color: #070707;
+            border: 2px solid #070707;
+        }
         .icon {
             position: absolute;
+            color: #070707;
             top: 7px;
             left: 10px;
         }
@@ -20,36 +28,7 @@
 
 .info-section {
     padding-top: 100px;
-
-    // .round-bar {
-    //     padding: 10px 20px;
-    //     display: inline-block;
-    //     border-radius: 30px;
-
-    //     &.black-btn {
-    //         background: #141414;
-    //         color: #FBBF3F;
-    //         text-transform: uppercase;
-    //         font-size: .9rem;
-    //         margin-bottom: 40px;
-    //     }
-
-    //     &.yellow-btn {
-    //         background: #FBBF3F;
-    //         color: #060606;
-    //         text-transform: uppercase;
-    //         font-size: 1rem;
-    //     }
-
-    //     &.blue-btn {
-    //         background: #3F7BFB;
-    //         color: #ffffff;
-    //         text-transform: uppercase;
-    //         font-size: 1rem;
-    //         margin-left: 15px;
-    //     }
-    // }
-
+    
     .buttons {
         margin-top: 50px;
     }

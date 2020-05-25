@@ -15,26 +15,26 @@ export default function Home() {
     <div className="container">
         <div className="row">
             <div className="col-md-1 social-links">
-                <div className="round-btn">
+                <Link href="/" className="round-btn">
                   <div className="icon">
                     <i className="fa fa-instagram" aria-hidden="true"></i>
                   </div>
-                </div>
-                <div className="round-btn">
+                </Link>
+                <Link to="/" className="round-btn">
                   <div className="icon">
                     <i className="fa fa-vimeo" aria-hidden="true"></i>
                   </div>
-                </div>
-                <div className="round-btn">
+                </Link>
+                <Link to="/" className="round-btn">
                   <div className="icon">
                     <i className="fa fa-twitter" aria-hidden="true"></i>
                   </div>
-                </div>
-                <div className="round-btn">
+                </Link>
+                <Link to="/" className="round-btn">
                   <div className="icon">
                     <i className="fa fa-facebook" aria-hidden="true"></i>
                   </div>
-                </div>
+                </Link>
             </div>
             <div className="col-md-5 info-section">
                 <div className="round-bar black-btn">Established since 2012</div>

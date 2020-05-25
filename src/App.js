@@ -38,13 +38,13 @@ export default class App extends Component {
                 <About />
               </Route>
               <Route exact path="/archive">
-                <BlogArchive />
+                <BlogArchive data={this.state.blogData} />
               </Route>
               <Route exact path="/blog">
                 <FeaturedArticles data={this.state.blogData} />
               </Route>
               <Route path="/blog/:slug">
-                <Blog />
+                <Blog data={this.state.blogData} />
               </Route>
               <Route path="/contact">
                 <Contact />
